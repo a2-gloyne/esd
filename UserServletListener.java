@@ -34,7 +34,7 @@ public class UserServletListener implements ServletContextListener {
             sc.setAttribute("error", e);
         }
         sc.setAttribute("connection", conn);
-    }
+    } 
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
